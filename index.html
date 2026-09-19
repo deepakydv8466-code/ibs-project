@@ -1,41 +1,1382 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Integrated Building Services | IBS</title><meta name="description" content="Integrated Building Services — infrastructure, MEP, civil construction, fit-outs, technical audits and facility services."><style>
-:root{--navy:#18364a;--red:#e51f2b;--ink:#12212b;--muted:#687783;--light:#f4f7f9;--line:#dfe6ea;--white:#fff;--shadow:0 18px 45px rgba(18,33,43,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.container{width:min(1180px,92vw);margin:auto}.topbar{background:var(--navy);color:#dbe8ef;font-size:13px}.topbar .container{display:flex;justify-content:space-between;padding:9px 0;gap:20px}.nav{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.navin{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand img{width:78px;height:55px;object-fit:contain}.brand strong{font-size:17px;letter-spacing:.4px;color:var(--navy)}.links{display:flex;gap:28px;align-items:center;font-weight:650;font-size:14px}.btn{border:0;border-radius:5px;padding:12px 18px;font-weight:750;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}.btn.red{background:var(--red);color:#fff}.btn.navy{background:var(--navy);color:#fff}.btn.outline{background:#fff;border:1px solid var(--line);color:var(--ink)}.hero{min-height:650px;position:relative;display:grid;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(10,30,43,.91),rgba(10,30,43,.58)),url('assets/slide11_1.png') center/cover}.hero:after{content:"";position:absolute;inset:auto 0 0;height:7px;background:linear-gradient(90deg,var(--red) 0 28%,transparent 28%)}.hero .copy{max-width:760px;position:relative;z-index:1}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:2.5px;font-weight:800;color:#e95c64}.hero h1{font-size:clamp(44px,6vw,76px);line-height:.98;margin:18px 0 22px;letter-spacing:-2.4px}.hero p{font-size:19px;line-height:1.7;color:#e8f0f4;max-width:680px}.actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}.section{padding:88px 0}.section.alt{background:var(--light)}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}.head h2{font-size:40px;letter-spacing:-1.3px;margin:8px 0 0}.head p{max-width:580px;color:var(--muted);line-height:1.7}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;transition:.25s}.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service{padding:28px}.service .num{color:var(--red);font-weight:900;font-size:13px}.service h3{font-size:21px;margin:12px 0}.service p,.project p{color:var(--muted);line-height:1.65;font-size:14px}.project img{width:100%;height:230px;object-fit:cover}.project .body{padding:22px}.tag{display:inline-block;background:#eef3f6;color:var(--navy);padding:6px 9px;border-radius:3px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.8px}.metrics{background:var(--navy);color:#fff;padding:42px 0}.metrics .container{display:grid;grid-template-columns:repeat(4,1fr)}.metric{padding:10px 30px;border-right:1px solid rgba(255,255,255,.18)}.metric:last-child{border:0}.metric strong{display:block;font-size:38px}.metric span{color:#c9d8e1;font-size:13px}.clients{display:flex;flex-wrap:wrap;gap:12px}.client{border:1px solid var(--line);background:#fff;padding:15px 18px;border-radius:5px;font-weight:750;color:#41515d}.aboutgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.aboutimg{height:480px;background:url('assets/slide12_2.jpg') center/cover;border-radius:8px;position:relative}.aboutimg:before{content:"";position:absolute;width:90px;height:90px;border:10px solid var(--red);left:-24px;top:-24px}.abouttext p{color:var(--muted);line-height:1.8}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.tick{font-weight:700}.tick:before{content:'✓';color:var(--red);margin-right:9px}.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px}.contactbox{background:var(--navy);color:#fff;padding:36px;border-radius:8px}.contactbox p{color:#d6e1e7;line-height:1.7}.form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form .full{grid-column:1/-1}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:12px;font-weight:800;color:#53636e}.field input,.field textarea,.field select{border:1px solid #d5dee3;border-radius:5px;padding:13px;background:#fff}.field textarea{min-height:120px;resize:vertical}.footer{background:#0c1f2b;color:#aebdc6;padding:50px 0 24px}.footgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}.footer h4{color:#fff}.footer .copy{border-top:1px solid #233946;margin-top:34px;padding-top:20px;font-size:12px}.mobile{display:none}.modal{position:fixed;inset:0;background:rgba(4,16,23,.72);z-index:80;display:none;place-items:center;padding:20px}.modal.open{display:grid}.modalbox{background:#fff;width:min(460px,96vw);border-radius:9px;padding:30px;box-shadow:var(--shadow)}.modalbox h2{margin-top:0}.hint{background:#fff4f4;border:1px solid #ffd3d5;padding:12px;border-radius:5px;font-size:13px;margin:14px 0}.admin{display:none;min-height:100vh;background:#f2f5f7}.admin.open{display:grid;grid-template-columns:250px 1fr}.side{background:#102c3d;color:#fff;padding:25px 18px;position:sticky;top:0;height:100vh}.side .brand strong{color:#fff;font-size:14px}.side img{width:62px}.sidenav{margin-top:30px;display:grid;gap:6px}.sidenav button{border:0;background:transparent;color:#c7d6df;text-align:left;padding:12px;border-radius:5px;cursor:pointer}.sidenav button.active,.sidenav button:hover{background:#1b4056;color:#fff}.main{padding:30px;overflow:auto}.adminhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.stat{background:#fff;border:1px solid var(--line);padding:22px;border-radius:7px}.stat strong{font-size:32px;display:block;color:var(--navy)}.panel{background:#fff;border:1px solid var(--line);border-radius:7px;padding:22px;margin-top:20px}.panelhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:12px 10px;vertical-align:top}th{color:#63737e;font-size:11px;text-transform:uppercase;letter-spacing:.6px}.mini{padding:7px 9px;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer}.danger{color:#b41922}.toast{position:fixed;right:22px;bottom:22px;background:#102c3d;color:#fff;padding:13px 18px;border-radius:5px;z-index:100;display:none}.toast.show{display:block}.adminform{display:grid;grid-template-columns:1fr 1fr;gap:12px}.adminform .full{grid-column:1/-1}.hidden{display:none!important}@media(max-width:850px){.links{display:none}.mobile{display:block}.grid{grid-template-columns:1fr}.aboutgrid,.contact{grid-template-columns:1fr}.metrics .container{grid-template-columns:1fr 1fr}.metric{border-bottom:1px solid rgba(255,255,255,.18)}.footgrid{grid-template-columns:1fr}.admin.open{grid-template-columns:1fr}.side{height:auto;position:relative}.sidenav{grid-template-columns:repeat(3,1fr)}.statgrid{grid-template-columns:1fr 1fr}.form,.adminform{grid-template-columns:1fr}.form .full,.adminform .full{grid-column:auto}}
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Integrated Building Services | IBS</title>
+      <meta
+         name="description"
+         content="Integrated Building Services — infrastructure, MEP, civil construction, fit-outs, technical audits and facility services."
+      />
+      <style>
+         :root {
+            --navy: #18364a;
+            --red: #e51f2b;
+            --ink: #12212b;
+            --muted: #687783;
+            --light: #f4f7f9;
+            --line: #dfe6ea;
+            --white: #fff;
+            --shadow: 0 18px 45px rgba(18, 33, 43, 0.12);
+         }
+         * {
+            box-sizing: border-box;
+         }
+         html {
+            scroll-behavior: smooth;
+         }
+         body {
+            margin: 0;
+            font-family:
+               Inter,
+               ui-sans-serif,
+               system-ui,
+               -apple-system,
+               Segoe UI,
+               Arial,
+               sans-serif;
+            color: var(--ink);
+            background: #fff;
+         }
+         a {
+            color: inherit;
+            text-decoration: none;
+         }
+         button,
+         input,
+         textarea,
+         select {
+            font: inherit;
+         }
+         .container {
+            width: min(1180px, 92vw);
+            margin: auto;
+         }
+         .topbar {
+            background: var(--navy);
+            color: #dbe8ef;
+            font-size: 13px;
+         }
+         .topbar .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 9px 0;
+            gap: 20px;
+         }
+         .nav {
+            position: sticky;
+            top: 0;
+            z-index: 30;
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--line);
+         }
+         .navin {
+            height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+         }
+         .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+         }
+         .brand img {
+            width: 78px;
+            height: 55px;
+            object-fit: contain;
+         }
+         .brand strong {
+            font-size: 17px;
+            letter-spacing: 0.4px;
+            color: var(--navy);
+         }
+         .links {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            font-weight: 650;
+            font-size: 14px;
+         }
+         .btn {
+            border: 0;
+            border-radius: 5px;
+            padding: 12px 18px;
+            font-weight: 750;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+         }
+         .btn.red {
+            background: var(--red);
+            color: #fff;
+         }
+         .btn.navy {
+            background: var(--navy);
+            color: #fff;
+         }
+         .btn.outline {
+            background: #fff;
+            border: 1px solid var(--line);
+            color: var(--ink);
+         }
+         .hero {
+            min-height: 650px;
+            position: relative;
+            display: grid;
+            align-items: center;
+            color: #fff;
+            background:
+               linear-gradient(
+                  90deg,
+                  rgba(10, 30, 43, 0.91),
+                  rgba(10, 30, 43, 0.58)
+               ),
+               url("assets/slide11_1.png") center/cover;
+         }
+         .hero:after {
+            content: "";
+            position: absolute;
+            inset: auto 0 0;
+            height: 7px;
+            background: linear-gradient(
+               90deg,
+               var(--red) 0 28%,
+               transparent 28%
+            );
+         }
+         .hero .copy {
+            max-width: 760px;
+            position: relative;
+            z-index: 1;
+         }
+         .eyebrow {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 800;
+            color: #e95c64;
+         }
+         .hero h1 {
+            font-size: clamp(44px, 6vw, 76px);
+            line-height: 0.98;
+            margin: 18px 0 22px;
+            letter-spacing: -2.4px;
+         }
+         .hero p {
+            font-size: 19px;
+            line-height: 1.7;
+            color: #e8f0f4;
+            max-width: 680px;
+         }
+         .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+            flex-wrap: wrap;
+         }
+         .section {
+            padding: 88px 0;
+         }
+         .section.alt {
+            background: var(--light);
+         }
+         .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 30px;
+            margin-bottom: 38px;
+         }
+         .head h2 {
+            font-size: 40px;
+            letter-spacing: -1.3px;
+            margin: 8px 0 0;
+         }
+         .head p {
+            max-width: 580px;
+            color: var(--muted);
+            line-height: 1.7;
+         }
+         .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+         }
+         .card {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: 0.25s;
+         }
+         .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+         }
+         .service {
+            padding: 28px;
+         }
+         .service .num {
+            color: var(--red);
+            font-weight: 900;
+            font-size: 13px;
+         }
+         .service h3 {
+            font-size: 21px;
+            margin: 12px 0;
+         }
+         .service p,
+         .project p {
+            color: var(--muted);
+            line-height: 1.65;
+            font-size: 14px;
+         }
+         .project img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+         }
+         .project .body {
+            padding: 22px;
+         }
+         .tag {
+            display: inline-block;
+            background: #eef3f6;
+            color: var(--navy);
+            padding: 6px 9px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+         }
+         .metrics {
+            background: var(--navy);
+            color: #fff;
+            padding: 42px 0;
+         }
+         .metrics .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+         }
+         .metric {
+            padding: 10px 30px;
+            border-right: 1px solid rgba(255, 255, 255, 0.18);
+         }
+         .metric:last-child {
+            border: 0;
+         }
+         .metric strong {
+            display: block;
+            font-size: 38px;
+         }
+         .metric span {
+            color: #c9d8e1;
+            font-size: 13px;
+         }
+         .clients {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+         }
+         .client {
+            border: 1px solid var(--line);
+            background: #fff;
+            padding: 15px 18px;
+            border-radius: 5px;
+            font-weight: 750;
+            color: #41515d;
+         }
+         .aboutgrid {
+            display: grid;
+            grid-template-columns: 1.05fr 0.95fr;
+            gap: 60px;
+            align-items: center;
+         }
+         .aboutimg {
+            height: 480px;
+            background: url("assets/slide12_2.jpg") center/cover;
+            border-radius: 8px;
+            position: relative;
+         }
+         .aboutimg:before {
+            content: "";
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            border: 10px solid var(--red);
+            left: -24px;
+            top: -24px;
+         }
+         .abouttext p {
+            color: var(--muted);
+            line-height: 1.8;
+         }
+         .ticks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 24px;
+         }
+         .tick {
+            font-weight: 700;
+         }
+         .tick:before {
+            content: "✓";
+            color: var(--red);
+            margin-right: 9px;
+         }
+         .contact {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 40px;
+         }
+         .contactbox {
+            background: var(--navy);
+            color: #fff;
+            padding: 36px;
+            border-radius: 8px;
+         }
+         .contactbox p {
+            color: #d6e1e7;
+            line-height: 1.7;
+         }
+         .form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+         }
+         .form .full {
+            grid-column: 1/-1;
+         }
+         .field {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+         }
+         .field label {
+            font-size: 12px;
+            font-weight: 800;
+            color: #53636e;
+         }
+         .field input,
+         .field textarea,
+         .field select {
+            border: 1px solid #d5dee3;
+            border-radius: 5px;
+            padding: 13px;
+            background: #fff;
+         }
+         .field textarea {
+            min-height: 120px;
+            resize: vertical;
+         }
+         .footer {
+            background: #0c1f2b;
+            color: #aebdc6;
+            padding: 50px 0 24px;
+         }
+         .footgrid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+         }
+         .footer h4 {
+            color: #fff;
+         }
+         .footer .copy {
+            border-top: 1px solid #233946;
+            margin-top: 34px;
+            padding-top: 20px;
+            font-size: 12px;
+         }
+         .mobile {
+            display: none;
+         }
+         .modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 16, 23, 0.72);
+            z-index: 80;
+            display: none;
+            place-items: center;
+            padding: 20px;
+         }
+         .modal.open {
+            display: grid;
+         }
+         .modalbox {
+            background: #fff;
+            width: min(460px, 96vw);
+            border-radius: 9px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+         }
+         .modalbox h2 {
+            margin-top: 0;
+         }
+         .hint {
+            background: #fff4f4;
+            border: 1px solid #ffd3d5;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 13px;
+            margin: 14px 0;
+         }
+         .admin {
+            display: none;
+            min-height: 100vh;
+            background: #f2f5f7;
+         }
+         .admin.open {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+         }
+         .side {
+            background: #102c3d;
+            color: #fff;
+            padding: 25px 18px;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+         }
+         .side .brand strong {
+            color: #fff;
+            font-size: 14px;
+         }
+         .side img {
+            width: 62px;
+         }
+         .sidenav {
+            margin-top: 30px;
+            display: grid;
+            gap: 6px;
+         }
+         .sidenav button {
+            border: 0;
+            background: transparent;
+            color: #c7d6df;
+            text-align: left;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+         .sidenav button.active,
+         .sidenav button:hover {
+            background: #1b4056;
+            color: #fff;
+         }
+         .main {
+            padding: 30px;
+            overflow: auto;
+         }
+         .adminhead {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+         }
+         .statgrid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+         }
+         .stat {
+            background: #fff;
+            border: 1px solid var(--line);
+            padding: 22px;
+            border-radius: 7px;
+         }
+         .stat strong {
+            font-size: 32px;
+            display: block;
+            color: var(--navy);
+         }
+         .panel {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 7px;
+            padding: 22px;
+            margin-top: 20px;
+         }
+         .panelhead {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+         }
+         .tablewrap {
+            overflow: auto;
+         }
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+         }
+         th,
+         td {
+            text-align: left;
+            border-bottom: 1px solid var(--line);
+            padding: 12px 10px;
+            vertical-align: top;
+         }
+         th {
+            color: #63737e;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+         }
+         .mini {
+            padding: 7px 9px;
+            border: 1px solid var(--line);
+            background: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+         }
+         .danger {
+            color: #b41922;
+         }
+         .toast {
+            position: fixed;
+            right: 22px;
+            bottom: 22px;
+            background: #102c3d;
+            color: #fff;
+            padding: 13px 18px;
+            border-radius: 5px;
+            z-index: 100;
+            display: none;
+         }
+         .toast.show {
+            display: block;
+         }
+         .adminform {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+         }
+         .adminform .full {
+            grid-column: 1/-1;
+         }
+         .hidden {
+            display: none !important;
+         }
+         @media (max-width: 850px) {
+            .links {
+               display: none;
+            }
+            .mobile {
+               display: block;
+            }
+            .grid {
+               grid-template-columns: 1fr;
+            }
+            .aboutgrid,
+            .contact {
+               grid-template-columns: 1fr;
+            }
+            .metrics .container {
+               grid-template-columns: 1fr 1fr;
+            }
+            .metric {
+               border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+            }
+            .footgrid {
+               grid-template-columns: 1fr;
+            }
+            .admin.open {
+               grid-template-columns: 1fr;
+            }
+            .side {
+               height: auto;
+               position: relative;
+            }
+            .sidenav {
+               grid-template-columns: repeat(3, 1fr);
+            }
+            .statgrid {
+               grid-template-columns: 1fr 1fr;
+            }
+            .form,
+            .adminform {
+               grid-template-columns: 1fr;
+            }
+            .form .full,
+            .adminform .full {
+               grid-column: auto;
+            }
+         }
 
-/* 2026 interactive polish */
-html{scroll-behavior:smooth}.brand img{object-fit:contain;background:#fff;border-radius:6px}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}.service,.project{transition:transform .28s ease,box-shadow .28s ease}.service:hover,.project:hover{transform:translateY(-7px);box-shadow:0 18px 42px rgba(16,38,56,.14)}.hero:after{content:"";position:absolute;inset:auto -10% -45% 40%;height:75%;background:radial-gradient(circle,rgba(202,29,47,.18),transparent 65%);pointer-events:none}.nav{backdrop-filter:saturate(160%) blur(12px)}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.service,.project{transition:none}}
-</style></head><body>
-<div id="site"><div class="topbar"><div class="container"><span>Integrated Building Services • Since 2018</span><span id="topContact">+91 8882828212 · ibservices2021@gmail.com</span></div></div><nav class="nav"><div class="container navin"><a class="brand" href="#home"><img src="assets/ibs-logo.png"><strong>INTEGRATED BUILDING SERVICES</strong></a><div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#clients">Clients</a><a href="#contact">Contact</a><button class="btn navy" onclick="openLogin()">Admin</button></div><button class="mobile btn navy" onclick="openLogin()">Admin</button></div></nav>
-<section class="hero" id="home"><div class="container"><div class="copy"><div class="eyebrow">Infrastructure • MEP • Technical Services</div><h1>Building performance.<br>Delivering confidence.</h1><p>Integrated Building Services provides civil construction, MEP contracting, interior fit-outs, audits, facility support and specialized technical services across India.</p><div class="actions"><a class="btn red" href="#projects">Explore Projects</a><a class="btn outline" href="#contact">Request a Consultation</a></div></div></div></section>
-<div class="metrics"><div class="container"><div class="metric"><strong>2018</strong><span>Operations started</span></div><div class="metric"><strong>33kV</strong><span>Electrical capability</span></div><div class="metric"><strong>20K</strong><span>Sq ft developed — flagship fit-out</span></div><div class="metric"><strong>India</strong><span>Multi-location service presence</span></div></div></div>
-<section class="section" id="about"><div class="container aboutgrid"><div class="aboutimg"></div><div class="abouttext"><div class="eyebrow">About IBS</div><h2 style="font-size:40px;margin:10px 0">Quality-led building services, from concept to operation.</h2><p>Integrated Building Services started operations in 2018. The firm works across infrastructure development, solar power, building repairs and maintenance, interior fit-out execution, landscape gardens, pest control, MEP and technical services.</p><p>Our mission is to provide top-tier construction and technical services through quality, safety and innovation, while building lasting client relationships.</p><div class="ticks"><div class="tick">Quality execution</div><div class="tick">Safety focused</div><div class="tick">Technical expertise</div><div class="tick">Client partnership</div></div></div></div></section>
-<section class="section alt" id="services"><div class="container"><div class="head"><div><div class="eyebrow">Capabilities</div><h2>Integrated services</h2></div><p>From construction and electrical infrastructure to audits, fit-outs and facility support, IBS combines project execution with technical capability.</p></div><div class="grid" id="serviceGrid"></div></div></section>
-<section class="section" id="projects"><div class="container"><div class="head"><div><div class="eyebrow">Selected work</div><h2>Project experience</h2></div><p>Representative assignments captured from the IBS capability profile.</p></div><div class="grid" id="projectGrid"></div></div></section>
-<section class="section alt" id="clients"><div class="container"><div class="head"><div><div class="eyebrow">Relationships</div><h2>Esteemed clients</h2></div><p>Organizations featured in the IBS capability profile across infrastructure, fit-out and facility/property management engagements.</p></div><div class="clients" id="clientGrid"></div></div></section>
-<section class="section" id="contact"><div class="container contact"><div class="contactbox"><div class="eyebrow">Contact</div><h2>Discuss your next project.</h2><p><b>Registered Office</b><br><span id="address"></span></p><p><b>Phone</b><br><span id="phones"></span></p><p><b>Email</b><br><span id="email"></span></p></div><form class="form" onsubmit="submitInquiry(event)"><div class="field"><label>Name</label><input id="inqName" required></div><div class="field"><label>Company</label><input id="inqCompany"></div><div class="field"><label>Phone</label><input id="inqPhone" required></div><div class="field"><label>Email</label><input id="inqEmail" type="email" required></div><div class="field full"><label>Requirement</label><textarea id="inqMessage" required placeholder="Tell us about your project or service requirement"></textarea></div><div class="full"><button class="btn red" type="submit">Send Enquiry</button></div></form></div></section>
-<footer class="footer"><div class="container"><div class="footgrid"><div><div class="brand"><img src="assets/ibs-logo.png"><strong style="color:#fff">INTEGRATED BUILDING SERVICES</strong></div><p>Infrastructure development, MEP, civil construction, interior fit-outs, technical audits and building services.</p></div><div><h4>Services</h4><p>MEP Contracting<br>Civil Construction<br>Technical Audits<br>Interior Fit-outs<br>Facility Services</p></div><div><h4>Quick Links</h4><p><a href="#projects">Projects</a><br><a href="#clients">Clients</a><br><a href="#contact">Contact</a><br><a href="javascript:openLogin()">Admin Login</a></p></div></div><div class="copy">© <span id="year"></span> Integrated Building Services. All rights reserved.</div></div></footer></div>
-<div class="modal" id="loginModal"><div class="modalbox"><div style="display:flex;justify-content:space-between"><h2>Admin Login</h2><button class="mini" onclick="closeLogin()">✕</button></div><p style="color:var(--muted)">Manage website content, projects, clients, manpower and enquiries.</p><form onsubmit="login(event)" class="form"><div class="field full"><label>Username</label><input id="username" value="admin" required></div><div class="field full"><label>Password</label><input id="password" type="password" value=" " required></div><div class="full"><button class="btn navy" style="width:100%">Login</button></div></form></div></div>
-<div class="admin" id="admin"><aside class="side"><div class="brand"><img src="assets/ibs-logo.png"><strong>IBS ADMIN</strong></div><div class="sidenav"><button class="active" onclick="showTab('dashboard',this)">Dashboard</button><button onclick="showTab('projects',this)">Projects</button><button onclick="showTab('clients',this)">Clients</button><button onclick="showTab('manpower',this)">Manpower</button><button onclick="showTab('services',this)">Services</button><button onclick="showTab('contact',this)">Contact Details</button><button onclick="showTab('inquiries',this)">Enquiries</button><button onclick="showTab('backup',this)">Backup</button></div></aside><main class="main"><div class="adminhead"><div><div class="eyebrow">Content Management</div><h2 style="margin:4px 0">IBS Website Dashboard</h2></div><div><button class="btn outline" onclick="viewSite()">View Website</button> <button class="btn red" onclick="logout()">Logout</button></div></div><div id="adminContent"></div></main></div><div class="toast" id="toast"></div>
-<script>
-const defaults={settings:{address:'Unit 543, Kankrola, Sector 87, IMT Manesar, Gurgaon – Haryana',phones:'+91 8882828212, 8586870144',email:'ibservices2021@gmail.com'},services:[
-{name:'MEP Services & Contracting',desc:'Consultancy, installation, upgrades and repairs for mechanical, electrical and plumbing systems.'},{name:'Civil Construction',desc:'Project execution from planning to completion, plus repairs and maintenance of existing structures.'},{name:'Technical & Safety Audits',desc:'Electrical, HVAC, elevators, escalators, fire safety, EHS and operational building audits.'},{name:'Electrical Infrastructure',desc:'Up to 33kV substations, MV panels, PCC/MCC panels, bus ducts, HT/LT cabling, transformers, DG and UPS.'},{name:'Interior Fit-outs',desc:'Corporate, retail, automobile and healthcare fit-outs with high-quality finishes and project management.'},{name:'Specialized Building Services',desc:'Thermography, surveillance, machine lifting/shifting, landscaping, deep cleaning, façade work and pest control.'}],projects:[
-{id:1,title:'Platinum Tower Luxury Office Fit-out',category:'Interior Fit-out',location:'Gurugram',value:'Approx. ₹2.5 Cr',area:'20,000 sq ft developed',image:'assets/slide12_2.jpg',desc:'Category A office fit-out with workstations, server room, meeting rooms, reception, executive cabins, dining lounge and 30-seat board room.'},{id:2,title:'IndusInd Bank Branch Renovation',category:'Renovation',location:'Vasant Square Mall, Delhi',value:'Approx. ₹65 Lakh',area:'35,000 sq ft',image:'assets/slide13_1.jpg',desc:'Operational-office renovation covering board room, lighting, IT wiring, pantry, flooring, storage and finishes without disrupting operations.'},{id:3,title:'Automobile Showrooms & Service Centres',category:'Automobile',location:'Manesar, Bilaspur, Farookhnagar & Narnaul',value:'Approx. ₹3.5 Cr',area:'4 locations',image:'assets/slide14_1.jpg',desc:'Category A dealership showrooms and service centres executed to international brand design guidelines.'},{id:4,title:'Hospital & Operation Theatre Fit-out',category:'Healthcare',location:'North India',value:'',area:'40-bed hospital',image:'assets/slide15_1.jpg',desc:'Interior fit-out of a 40-bed hospital and operation theatre, adapting execution to evolving client design requirements.'},{id:5,title:'Machine Lifting & Shifting',category:'Industrial',location:'IMT Manesar',value:'',area:'CNC / BMC / DG / Chiller',image:'assets/slide16_1.png',desc:'Machine shifting assignments for industrial facilities with experienced manpower and safety equipment.'},{id:6,title:'Plumbing Contract — 15 Towers',category:'Plumbing',location:'Gurugram',value:'Approx. ₹2 Cr',area:'15 towers',image:'assets/slide21_1.png',desc:'Large-scale plumbing contract executed across fifteen towers over approximately 30 months.'}],clients:['BML Munjal University','Pyramid Infratech','IndusInd Bank','Godrej Properties','G4S','MS India','AIIMS New Delhi','Aarone Group','NEXA','Zoplar','Flipkart','Rockland','Platinum Motocorp','Narayana e-Techno School','DLF','Hero Homes','Modern Automotives','Amazon','RPS','JLL'],manpower:[{name:'Devinder Yadav',role:'Director - Infrastructure'},{name:'Deepak Thapa',role:'GM Operations'},{name:'Dushyant Rao',role:'Project Manager'},{name:'Deepak Sharma',role:'Manager - HR'},{name:'Priyanka',role:'Manager - Procurement'},{name:'Sarita / Ajay',role:'Manager - Account & Finance'},{name:'Ajay Kumar',role:'Audit'},{name:'Sahil Kumar / Deepak Naveen',role:'Field Officer'}],inquiries:[]};
-let data=JSON.parse(localStorage.getItem('ibsData')||'null')||defaults; function save(){localStorage.setItem('ibsData',JSON.stringify(data));renderSite();toast('Changes saved');} function renderSite(){document.getElementById('serviceGrid').innerHTML=data.services.map((s,i)=>`<article class="card service"><div class="num">0${i+1}</div><h3>${esc(s.name)}</h3><p>${esc(s.desc)}</p></article>`).join('');document.getElementById('projectGrid').innerHTML=data.projects.map(p=>`<article class="card project"><img src="${p.image||'assets/slide11_1.png'}"><div class="body"><span class="tag">${esc(p.category)}</span><h3>${esc(p.title)}</h3><p>${esc(p.location)}${p.area?' • '+esc(p.area):''}</p><p>${esc(p.desc)}</p>${p.value?`<b>${esc(p.value)}</b>`:''}</div></article>`).join('');document.getElementById('clientGrid').innerHTML=data.clients.map(c=>`<div class="client">${esc(c)}</div>`).join('');address.textContent=data.settings.address;phones.textContent=data.settings.phones;email.textContent=data.settings.email;topContact.textContent=data.settings.phones.split(',')[0]+' · '+data.settings.email;year.textContent=new Date().getFullYear();}
-function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))} function openLogin(){loginModal.classList.add('open')}function closeLogin(){loginModal.classList.remove('open')}function login(e){e.preventDefault();if(username.value==='admin'&&password.value==='IBS@2026'){sessionStorage.setItem('ibsAdmin','1');closeLogin();site.classList.add('hidden');admin.classList.add('open');renderAdmin('dashboard')}else alert('Invalid demo credentials.')}function logout(){sessionStorage.removeItem('ibsAdmin');admin.classList.remove('open');site.classList.remove('hidden')}function viewSite(){admin.classList.remove('open');site.classList.remove('hidden');location.hash='home'}function showTab(tab,el){document.querySelectorAll('.sidenav button').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderAdmin(tab)}
-function renderAdmin(tab){let c=adminContent;if(tab==='dashboard'){c.innerHTML=`<div class="statgrid"><div class="stat"><strong>${data.projects.length}</strong>Projects</div><div class="stat"><strong>${data.clients.length}</strong>Clients</div><div class="stat"><strong>${data.manpower.length}</strong>Team records</div><div class="stat"><strong>${data.inquiries.length}</strong>Enquiries</div></div><div class="panel"><h3>Welcome to IBS Admin</h3><p>Use the menu to update website content. Changes are stored in this browser immediately and reflected on the public website.</p></div>`}
-if(tab==='projects'){c.innerHTML=`<div class="panel"><div class="panelhead"><h3>Projects</h3><button class="btn red" onclick="projectForm()">+ Add Project</button></div><div class="tablewrap"><table><tr><th>Project</th><th>Category</th><th>Location</th><th>Value</th><th>Action</th></tr>${data.projects.map((p,i)=>`<tr><td><b>${esc(p.title)}</b><br>${esc(p.area)}</td><td>${esc(p.category)}</td><td>${esc(p.location)}</td><td>${esc(p.value)}</td><td><button class="mini" onclick="projectForm(${i})">Edit</button> <button class="mini danger" onclick="del('projects',${i},'projects')">Delete</button></td></tr>`).join('')}</table></div></div>`}
-if(tab==='clients'){c.innerHTML=listEditor('Clients','clients','Client name')}
-if(tab==='manpower'){c.innerHTML=`<div class="panel"><div class="panelhead"><h3>Manpower / Team</h3><button class="btn red" onclick="personForm()">+ Add Person</button></div><table><tr><th>Name</th><th>Role</th><th>Action</th></tr>${data.manpower.map((p,i)=>`<tr><td>${esc(p.name)}</td><td>${esc(p.role)}</td><td><button class="mini" onclick="personForm(${i})">Edit</button> <button class="mini danger" onclick="del('manpower',${i},'manpower')">Delete</button></td></tr>`).join('')}</table></div>`}
-if(tab==='services'){c.innerHTML=`<div class="panel"><div class="panelhead"><h3>Services</h3><button class="btn red" onclick="serviceForm()">+ Add Service</button></div><table><tr><th>Service</th><th>Description</th><th>Action</th></tr>${data.services.map((s,i)=>`<tr><td><b>${esc(s.name)}</b></td><td>${esc(s.desc)}</td><td><button class="mini" onclick="serviceForm(${i})">Edit</button> <button class="mini danger" onclick="del('services',${i},'services')">Delete</button></td></tr>`).join('')}</table></div>`}
-if(tab==='contact'){c.innerHTML=`<div class="panel"><h3>Contact Details</h3><form class="adminform" onsubmit="saveContact(event)"><div class="field full"><label>Registered Office</label><input id="aAddress" value="${esc(data.settings.address)}"></div><div class="field"><label>Phone numbers</label><input id="aPhones" value="${esc(data.settings.phones)}"></div><div class="field"><label>Email</label><input id="aEmail" value="${esc(data.settings.email)}"></div><div><button class="btn navy">Save Contact Details</button></div></form></div>`}
-if(tab==='inquiries'){c.innerHTML=`<div class="panel"><h3>Website Enquiries</h3><div class="tablewrap"><table><tr><th>Date</th><th>Name</th><th>Contact</th><th>Requirement</th></tr>${data.inquiries.slice().reverse().map(x=>`<tr><td>${esc(x.date)}</td><td><b>${esc(x.name)}</b><br>${esc(x.company)}</td><td>${esc(x.phone)}<br>${esc(x.email)}</td><td>${esc(x.message)}</td></tr>`).join('')||'<tr><td colspan="4">No enquiries yet.</td></tr>'}</table></div></div>`}
-if(tab==='backup'){c.innerHTML=`<div class="panel"><h3>Backup & Restore</h3><p>Export all editable website data as JSON or restore it later. Useful before moving the site to another browser/device.</p><button class="btn navy" onclick="exportData()">Export JSON</button> <label class="btn outline">Import JSON<input type="file" accept="application/json" style="display:none" onchange="importData(this)"></label> <button class="btn outline" onclick="resetDemo()">Reset Demo Data</button></div>`}}
-function listEditor(title,key,ph){return `<div class="panel"><div class="panelhead"><h3>${title}</h3><button class="btn red" onclick="simpleAdd('${key}','${ph}')">+ Add</button></div><table><tr><th>Name</th><th>Action</th></tr>${data[key].map((v,i)=>`<tr><td>${esc(v)}</td><td><button class="mini" onclick="simpleEdit('${key}',${i})">Edit</button> <button class="mini danger" onclick="del('${key}',${i},'${key}')">Delete</button></td></tr>`).join('')}</table></div>`}
-function simpleAdd(key,ph){let v=prompt(ph);if(v){data[key].push(v);save();renderAdmin(key)}}function simpleEdit(key,i){let v=prompt('Update value',data[key][i]);if(v){data[key][i]=v;save();renderAdmin(key)}}function del(key,i,tab){if(confirm('Delete this record?')){data[key].splice(i,1);save();renderAdmin(tab)}}
-function projectForm(i){let p=i===undefined?{title:'',category:'',location:'',value:'',area:'',image:'assets/slide11_1.png',desc:''}:data.projects[i];adminContent.innerHTML=`<div class="panel"><h3>${i===undefined?'Add':'Edit'} Project</h3><form class="adminform" onsubmit="saveProject(event,${i===undefined?-1:i})"><div class="field full"><label>Project title</label><input id="pTitle" value="${esc(p.title)}" required></div><div class="field"><label>Category</label><input id="pCategory" value="${esc(p.category)}"></div><div class="field"><label>Location</label><input id="pLocation" value="${esc(p.location)}"></div><div class="field"><label>Value</label><input id="pValue" value="${esc(p.value)}"></div><div class="field"><label>Area / scale</label><input id="pArea" value="${esc(p.area)}"></div><div class="field full"><label>Image path or URL</label><input id="pImage" value="${esc(p.image)}"></div><div class="field full"><label>Description</label><textarea id="pDesc">${esc(p.desc)}</textarea></div><div><button class="btn navy">Save Project</button></div></form></div>`}function saveProject(e,i){e.preventDefault();let p={id:Date.now(),title:pTitle.value,category:pCategory.value,location:pLocation.value,value:pValue.value,area:pArea.value,image:pImage.value,desc:pDesc.value};if(i<0)data.projects.push(p);else data.projects[i]={...data.projects[i],...p};save();renderAdmin('projects')}
-function personForm(i){let p=i===undefined?{name:'',role:''}:data.manpower[i];adminContent.innerHTML=`<div class="panel"><h3>${i===undefined?'Add':'Edit'} Team Member</h3><form class="adminform" onsubmit="savePerson(event,${i===undefined?-1:i})"><div class="field"><label>Name</label><input id="mName" value="${esc(p.name)}" required></div><div class="field"><label>Role</label><input id="mRole" value="${esc(p.role)}" required></div><div><button class="btn navy">Save</button></div></form></div>`}function savePerson(e,i){e.preventDefault();let p={name:mName.value,role:mRole.value};if(i<0)data.manpower.push(p);else data.manpower[i]=p;save();renderAdmin('manpower')}
-function serviceForm(i){let s=i===undefined?{name:'',desc:''}:data.services[i];adminContent.innerHTML=`<div class="panel"><h3>${i===undefined?'Add':'Edit'} Service</h3><form class="adminform" onsubmit="saveService(event,${i===undefined?-1:i})"><div class="field full"><label>Service</label><input id="sName" value="${esc(s.name)}" required></div><div class="field full"><label>Description</label><textarea id="sDesc">${esc(s.desc)}</textarea></div><div><button class="btn navy">Save</button></div></form></div>`}function saveService(e,i){e.preventDefault();let s={name:sName.value,desc:sDesc.value};if(i<0)data.services.push(s);else data.services[i]=s;save();renderAdmin('services')}
-function saveContact(e){e.preventDefault();data.settings={address:aAddress.value,phones:aPhones.value,email:aEmail.value};save();renderAdmin('contact')}function submitInquiry(e){e.preventDefault();data.inquiries.push({date:new Date().toLocaleString(),name:inqName.value,company:inqCompany.value,phone:inqPhone.value,email:inqEmail.value,message:inqMessage.value});localStorage.setItem('ibsData',JSON.stringify(data));e.target.reset();toast('Thank you. Your enquiry has been recorded.')}function exportData(){let b=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='ibs-website-backup.json';a.click()}function importData(inp){let f=inp.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{data=JSON.parse(r.result);save();renderAdmin('dashboard')}catch(e){alert('Invalid JSON backup')}};r.readAsText(f)}function resetDemo(){if(confirm('Reset all content to original demo data?')){data=JSON.parse(JSON.stringify(defaults));save();renderAdmin('dashboard')}}function toast(msg){let t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200)}renderSite();if(sessionStorage.getItem('ibsAdmin')==='1'){site.classList.add('hidden');admin.classList.add('open');renderAdmin('dashboard')}
+         /* 2026 interactive polish */
+         html {
+            scroll-behavior: smooth;
+         }
+         .brand img {
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px;
+         }
+         .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition:
+               opacity 0.7s ease,
+               transform 0.7s ease;
+         }
+         .reveal.visible {
+            opacity: 1;
+            transform: none;
+         }
+         .service,
+         .project {
+            transition:
+               transform 0.28s ease,
+               box-shadow 0.28s ease;
+         }
+         .service:hover,
+         .project:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 18px 42px rgba(16, 38, 56, 0.14);
+         }
+         .hero:after {
+            content: "";
+            position: absolute;
+            inset: auto -10% -45% 40%;
+            height: 75%;
+            background: radial-gradient(
+               circle,
+               rgba(202, 29, 47, 0.18),
+               transparent 65%
+            );
+            pointer-events: none;
+         }
+         .nav {
+            backdrop-filter: saturate(160%) blur(12px);
+         }
+         @media (prefers-reduced-motion: reduce) {
+            html {
+               scroll-behavior: auto;
+            }
+            .reveal {
+               opacity: 1;
+               transform: none;
+               transition: none;
+            }
+            .service,
+            .project {
+               transition: none;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div id="site">
+         <div class="topbar">
+            <div class="container">
+               <span>Integrated Building Services • Since 2018</span
+               ><span id="topContact"
+                  >+91 8882828212 · ibservices2021@gmail.com</span
+               >
+            </div>
+         </div>
+         <nav class="nav">
+            <div class="container navin">
+               <a class="brand" href="#home"
+                  ><img src="assets/ibs-logo.png" /><strong
+                     >INTEGRATED BUILDING SERVICES</strong
+                  ></a
+               >
+               <div class="links">
+                  <a href="#about">About</a><a href="#services">Services</a
+                  ><a href="#projects">Projects</a><a href="#clients">Clients</a
+                  ><a href="#contact">Contact</a
+                  ><button class="btn navy" onclick="openLogin()">Admin</button>
+               </div>
+               <button class="mobile btn navy" onclick="openLogin()">
+                  Admin
+               </button>
+            </div>
+         </nav>
+         <section class="hero" id="home">
+            <div class="container">
+               <div class="copy">
+                  <div class="eyebrow">
+                     Infrastructure • MEP • Technical Services
+                  </div>
+                  <h1>Building performance.<br />Delivering confidence.</h1>
+                  <p>
+                     Integrated Building Services provides civil construction,
+                     MEP contracting, interior fit-outs, audits, facility
+                     support and specialized technical services across India.
+                  </p>
+                  <div class="actions">
+                     <a class="btn red" href="#projects">Explore Projects</a
+                     ><a class="btn outline" href="#contact"
+                        >Request a Consultation</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="metrics">
+            <div class="container">
+               <div class="metric">
+                  <strong>2018</strong><span>Operations started</span>
+               </div>
+               <div class="metric">
+                  <strong>33kV</strong><span>Electrical capability</span>
+               </div>
+               <div class="metric">
+                  <strong>20K</strong
+                  ><span>Sq ft developed — flagship fit-out</span>
+               </div>
+               <div class="metric">
+                  <strong>India</strong
+                  ><span>Multi-location service presence</span>
+               </div>
+            </div>
+         </div>
+         <section class="section" id="about">
+            <div class="container aboutgrid">
+               <div class="aboutimg"></div>
+               <div class="abouttext">
+                  <div class="eyebrow">About IBS</div>
+                  <h2 style="font-size: 40px; margin: 10px 0">
+                     Quality-led building services, from concept to operation.
+                  </h2>
+                  <p>
+                     Integrated Building Services started operations in 2018.
+                     The firm works across infrastructure development, solar
+                     power, building repairs and maintenance, interior fit-out
+                     execution, landscape gardens, pest control, MEP and
+                     technical services.
+                  </p>
+                  <p>
+                     Our mission is to provide top-tier construction and
+                     technical services through quality, safety and innovation,
+                     while building lasting client relationships.
+                  </p>
+                  <div class="ticks">
+                     <div class="tick">Quality execution</div>
+                     <div class="tick">Safety focused</div>
+                     <div class="tick">Technical expertise</div>
+                     <div class="tick">Client partnership</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section alt" id="services">
+            <div class="container">
+               <div class="head">
+                  <div>
+                     <div class="eyebrow">Capabilities</div>
+                     <h2>Integrated services</h2>
+                  </div>
+                  <p>
+                     From construction and electrical infrastructure to audits,
+                     fit-outs and facility support, IBS combines project
+                     execution with technical capability.
+                  </p>
+               </div>
+               <div class="grid" id="serviceGrid"></div>
+            </div>
+         </section>
+         <section class="section" id="projects">
+            <div class="container">
+               <div class="head">
+                  <div>
+                     <div class="eyebrow">Selected work</div>
+                     <h2>Project experience</h2>
+                  </div>
+                  <p>
+                     Representative assignments captured from the IBS capability
+                     profile.
+                  </p>
+               </div>
+               <div class="grid" id="projectGrid"></div>
+            </div>
+         </section>
+         <section class="section alt" id="clients">
+            <div class="container">
+               <div class="head">
+                  <div>
+                     <div class="eyebrow">Relationships</div>
+                     <h2>Esteemed clients</h2>
+                  </div>
+                  <p>
+                     Organizations featured in the IBS capability profile across
+                     infrastructure, fit-out and facility/property management
+                     engagements.
+                  </p>
+               </div>
+               <div class="clients" id="clientGrid"></div>
+            </div>
+         </section>
+         <section class="section" id="contact">
+            <div class="container contact">
+               <div class="contactbox">
+                  <div class="eyebrow">Contact</div>
+                  <h2>Discuss your next project.</h2>
+                  <p>
+                     <b>Registered Office</b><br /><span id="address"></span>
+                  </p>
+                  <p><b>Phone</b><br /><span id="phones"></span></p>
+                  <p><b>Email</b><br /><span id="email"></span></p>
+               </div>
+               <form class="form" onsubmit="submitInquiry(event)">
+                  <div class="field">
+                     <label>Name</label><input id="inqName" required />
+                  </div>
+                  <div class="field">
+                     <label>Company</label><input id="inqCompany" />
+                  </div>
+                  <div class="field">
+                     <label>Phone</label><input id="inqPhone" required />
+                  </div>
+                  <div class="field">
+                     <label>Email</label
+                     ><input id="inqEmail" type="email" required />
+                  </div>
+                  <div class="field full">
+                     <label>Requirement</label
+                     ><textarea
+                        id="inqMessage"
+                        required
+                        placeholder="Tell us about your project or service requirement"
+                     ></textarea>
+                  </div>
+                  <div class="full">
+                     <button class="btn red" type="submit">Send Enquiry</button>
+                  </div>
+               </form>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="container">
+               <div class="footgrid">
+                  <div>
+                     <div class="brand">
+                        <img src="assets/ibs-logo.png" /><strong
+                           style="color: #fff"
+                           >INTEGRATED BUILDING SERVICES</strong
+                        >
+                     </div>
+                     <p>
+                        Infrastructure development, MEP, civil construction,
+                        interior fit-outs, technical audits and building
+                        services.
+                     </p>
+                  </div>
+                  <div>
+                     <h4>Services</h4>
+                     <p>
+                        MEP Contracting<br />Civil Construction<br />Technical
+                        Audits<br />Interior Fit-outs<br />Facility Services
+                     </p>
+                  </div>
+                  <div>
+                     <h4>Quick Links</h4>
+                     <p>
+                        <a href="#projects">Projects</a><br /><a href="#clients"
+                           >Clients</a
+                        ><br /><a href="#contact">Contact</a><br /><a
+                           href="javascript:openLogin()"
+                           >Admin Login</a
+                        >
+                     </p>
+                  </div>
+               </div>
+               <div class="copy">
+                  © <span id="year"></span> Integrated Building Services. All
+                  rights reserved.
+               </div>
+            </div>
+         </footer>
+      </div>
+      <div class="modal" id="loginModal">
+         <div class="modalbox">
+            <div style="display: flex; justify-content: space-between">
+               <h2>Admin Login</h2>
+               <button class="mini" onclick="closeLogin()">✕</button>
+            </div>
+            <p style="color: var(--muted)">
+               Manage website content, projects, clients, manpower and
+               enquiries.
+            </p>
+            <form onsubmit="login(event)" class="form">
+               <div class="field full">
+                  <label>Username</label
+                  ><input id="username" value="admin" required />
+               </div>
+               <div class="field full">
+                  <label>Password</label
+                  ><input id="password" type="password" value=" " required />
+               </div>
+               <div class="full">
+                  <button class="btn navy" style="width: 100%">Login</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="admin" id="admin">
+         <aside class="side">
+            <div class="brand">
+               <img src="assets/ibs-logo.png" /><strong>IBS ADMIN</strong>
+            </div>
+            <div class="sidenav">
+               <button class="active" onclick="showTab('dashboard',this)">
+                  Dashboard</button
+               ><button onclick="showTab('projects',this)">Projects</button
+               ><button onclick="showTab('clients',this)">Clients</button
+               ><button onclick="showTab('manpower',this)">Manpower</button
+               ><button onclick="showTab('services',this)">Services</button
+               ><button onclick="showTab('contact',this)">
+                  Contact Details</button
+               ><button onclick="showTab('inquiries',this)">Enquiries</button
+               ><button onclick="showTab('backup',this)">Backup</button>
+            </div>
+         </aside>
+         <main class="main">
+            <div class="adminhead">
+               <div>
+                  <div class="eyebrow">Content Management</div>
+                  <h2 style="margin: 4px 0">IBS Website Dashboard</h2>
+               </div>
+               <div>
+                  <button class="btn outline" onclick="viewSite()">
+                     View Website
+                  </button>
+                  <button class="btn red" onclick="logout()">Logout</button>
+               </div>
+            </div>
+            <div id="adminContent"></div>
+         </main>
+      </div>
+      <div class="toast" id="toast"></div>
+      <script>
+         const defaults = {
+            settings: {
+               address:
+                  "Unit 543, Kankrola, Sector 87, IMT Manesar, Gurgaon – Haryana",
+               phones: "+91 8882828212, 8586870144",
+               email: "ibservices2021@gmail.com",
+            },
+            services: [
+               {
+                  name: "MEP Services & Contracting",
+                  desc: "Consultancy, installation, upgrades and repairs for mechanical, electrical and plumbing systems.",
+               },
+               {
+                  name: "Civil Construction",
+                  desc: "Project execution from planning to completion, plus repairs and maintenance of existing structures.",
+               },
+               {
+                  name: "Technical & Safety Audits",
+                  desc: "Electrical, HVAC, elevators, escalators, fire safety, EHS and operational building audits.",
+               },
+               {
+                  name: "Electrical Infrastructure",
+                  desc: "Up to 33kV substations, MV panels, PCC/MCC panels, bus ducts, HT/LT cabling, transformers, DG and UPS.",
+               },
+               {
+                  name: "Interior Fit-outs",
+                  desc: "Corporate, retail, automobile and healthcare fit-outs with high-quality finishes and project management.",
+               },
+               {
+                  name: "Specialized Building Services",
+                  desc: "Thermography, surveillance, machine lifting/shifting, landscaping, deep cleaning, façade work and pest control.",
+               },
+            ],
+            projects: [
+               {
+                  id: 1,
+                  title: "Platinum Tower Luxury Office Fit-out",
+                  category: "Interior Fit-out",
+                  location: "Gurugram",
+                  value: "Approx. ₹2.5 Cr",
+                  area: "20,000 sq ft developed",
+                  image: "assets/slide12_2.jpg",
+                  desc: "Category A office fit-out with workstations, server room, meeting rooms, reception, executive cabins, dining lounge and 30-seat board room.",
+               },
+               {
+                  id: 2,
+                  title: "IndusInd Bank Branch Renovation",
+                  category: "Renovation",
+                  location: "Vasant Square Mall, Delhi",
+                  value: "Approx. ₹65 Lakh",
+                  area: "35,000 sq ft",
+                  image: "assets/slide13_1.jpg",
+                  desc: "Operational-office renovation covering board room, lighting, IT wiring, pantry, flooring, storage and finishes without disrupting operations.",
+               },
+               {
+                  id: 3,
+                  title: "Automobile Showrooms & Service Centres",
+                  category: "Automobile",
+                  location: "Manesar, Bilaspur, Farookhnagar & Narnaul",
+                  value: "Approx. ₹3.5 Cr",
+                  area: "4 locations",
+                  image: "assets/slide14_1.jpg",
+                  desc: "Category A dealership showrooms and service centres executed to international brand design guidelines.",
+               },
+               {
+                  id: 4,
+                  title: "Hospital & Operation Theatre Fit-out",
+                  category: "Healthcare",
+                  location: "North India",
+                  value: "",
+                  area: "40-bed hospital",
+                  image: "assets/slide15_1.jpg",
+                  desc: "Interior fit-out of a 40-bed hospital and operation theatre, adapting execution to evolving client design requirements.",
+               },
+               {
+                  id: 5,
+                  title: "Machine Lifting & Shifting",
+                  category: "Industrial",
+                  location: "IMT Manesar",
+                  value: "",
+                  area: "CNC / BMC / DG / Chiller",
+                  image: "assets/slide16_1.png",
+                  desc: "Machine shifting assignments for industrial facilities with experienced manpower and safety equipment.",
+               },
+               {
+                  id: 6,
+                  title: "Plumbing Contract — 15 Towers",
+                  category: "Plumbing",
+                  location: "Gurugram",
+                  value: "Approx. ₹2 Cr",
+                  area: "15 towers",
+                  image: "assets/slide21_1.png",
+                  desc: "Large-scale plumbing contract executed across fifteen towers over approximately 30 months.",
+               },
+            ],
+            clients: [
+               "BML Munjal University",
+               "Pyramid Infratech",
+               "IndusInd Bank",
+               "Godrej Properties",
+               "G4S",
+               "MS India",
+               "AIIMS New Delhi",
+               "Aarone Group",
+               "NEXA",
+               "Zoplar",
+               "Flipkart",
+               "Rockland",
+               "Platinum Motocorp",
+               "Narayana e-Techno School",
+               "DLF",
+               "Hero Homes",
+               "Modern Automotives",
+               "Amazon",
+               "RPS",
+               "JLL",
+            ],
+            manpower: [
+               { name: "Devinder Yadav", role: "Director - Infrastructure" },
+               { name: "Deepak Thapa", role: "GM Operations" },
+               { name: "Dushyant Rao", role: "Project Manager" },
+               { name: "Deepak Sharma", role: "Manager - HR" },
+               { name: "Priyanka", role: "Manager - Procurement" },
+               { name: "Sarita / Ajay", role: "Manager - Account & Finance" },
+               { name: "Ajay Kumar", role: "Audit" },
+               { name: "Sahil Kumar / Deepak Naveen", role: "Field Officer" },
+            ],
+            inquiries: [],
+         };
+         let data =
+            JSON.parse(localStorage.getItem("ibsData") || "null") || defaults;
+         function save() {
+            localStorage.setItem("ibsData", JSON.stringify(data));
+            renderSite();
+            toast("Changes saved");
+         }
+         function renderSite() {
+            document.getElementById("serviceGrid").innerHTML = data.services
+               .map(
+                  (s, i) =>
+                     `<article class="card service"><div class="num">0${i + 1}</div><h3>${esc(s.name)}</h3><p>${esc(s.desc)}</p></article>`,
+               )
+               .join("");
+            document.getElementById("projectGrid").innerHTML = data.projects
+               .map(
+                  (p) =>
+                     `<article class="card project"><img src="${p.image || "assets/slide11_1.png"}"><div class="body"><span class="tag">${esc(p.category)}</span><h3>${esc(p.title)}</h3><p>${esc(p.location)}${p.area ? " • " + esc(p.area) : ""}</p><p>${esc(p.desc)}</p>${p.value ? `<b>${esc(p.value)}</b>` : ""}</div></article>`,
+               )
+               .join("");
+            document.getElementById("clientGrid").innerHTML = data.clients
+               .map((c) => `<div class="client">${esc(c)}</div>`)
+               .join("");
+            address.textContent = data.settings.address;
+            phones.textContent = data.settings.phones;
+            email.textContent = data.settings.email;
+            topContact.textContent =
+               data.settings.phones.split(",")[0] + " · " + data.settings.email;
+            year.textContent = new Date().getFullYear();
+         }
+         function esc(s = "") {
+            return String(s).replace(
+               /[&<>"']/g,
+               (m) =>
+                  ({
+                     "&": "&amp;",
+                     "<": "&lt;",
+                     ">": "&gt;",
+                     '"': "&quot;",
+                     "'": "&#039;",
+                  })[m],
+            );
+         }
+         function openLogin() {
+            loginModal.classList.add("open");
+         }
+         function closeLogin() {
+            loginModal.classList.remove("open");
+         }
+         function login(e) {
+            e.preventDefault();
+            if (username.value === "admin" && password.value === "IBS@2026") {
+               sessionStorage.setItem("ibsAdmin", "1");
+               closeLogin();
+               site.classList.add("hidden");
+               admin.classList.add("open");
+               renderAdmin("dashboard");
+            } else alert("Invalid credentials.");
+         }
+         function logout() {
+            sessionStorage.removeItem("ibsAdmin");
+            admin.classList.remove("open");
+            site.classList.remove("hidden");
+         }
+         function viewSite() {
+            admin.classList.remove("open");
+            site.classList.remove("hidden");
+            location.hash = "home";
+         }
+         function showTab(tab, el) {
+            document
+               .querySelectorAll(".sidenav button")
+               .forEach((b) => b.classList.remove("active"));
+            el.classList.add("active");
+            renderAdmin(tab);
+         }
+         function renderAdmin(tab) {
+            let c = adminContent;
+            if (tab === "dashboard") {
+               c.innerHTML = `<div class="statgrid"><div class="stat"><strong>${data.projects.length}</strong>Projects</div><div class="stat"><strong>${data.clients.length}</strong>Clients</div><div class="stat"><strong>${data.manpower.length}</strong>Team records</div><div class="stat"><strong>${data.inquiries.length}</strong>Enquiries</div></div><div class="panel"><h3>Welcome to IBS Admin</h3><p>Use the menu to update website content. Changes are stored in this browser immediately and reflected on the public website.</p></div>`;
+            }
+            if (tab === "projects") {
+               c.innerHTML = `<div class="panel"><div class="panelhead"><h3>Projects</h3><button class="btn red" onclick="projectForm()">+ Add Project</button></div><div class="tablewrap"><table><tr><th>Project</th><th>Category</th><th>Location</th><th>Value</th><th>Action</th></tr>${data.projects.map((p, i) => `<tr><td><b>${esc(p.title)}</b><br>${esc(p.area)}</td><td>${esc(p.category)}</td><td>${esc(p.location)}</td><td>${esc(p.value)}</td><td><button class="mini" onclick="projectForm(${i})">Edit</button> <button class="mini danger" onclick="del('projects',${i},'projects')">Delete</button></td></tr>`).join("")}</table></div></div>`;
+            }
+            if (tab === "clients") {
+               c.innerHTML = listEditor("Clients", "clients", "Client name");
+            }
+            if (tab === "manpower") {
+               c.innerHTML = `<div class="panel"><div class="panelhead"><h3>Manpower / Team</h3><button class="btn red" onclick="personForm()">+ Add Person</button></div><table><tr><th>Name</th><th>Role</th><th>Action</th></tr>${data.manpower.map((p, i) => `<tr><td>${esc(p.name)}</td><td>${esc(p.role)}</td><td><button class="mini" onclick="personForm(${i})">Edit</button> <button class="mini danger" onclick="del('manpower',${i},'manpower')">Delete</button></td></tr>`).join("")}</table></div>`;
+            }
+            if (tab === "services") {
+               c.innerHTML = `<div class="panel"><div class="panelhead"><h3>Services</h3><button class="btn red" onclick="serviceForm()">+ Add Service</button></div><table><tr><th>Service</th><th>Description</th><th>Action</th></tr>${data.services.map((s, i) => `<tr><td><b>${esc(s.name)}</b></td><td>${esc(s.desc)}</td><td><button class="mini" onclick="serviceForm(${i})">Edit</button> <button class="mini danger" onclick="del('services',${i},'services')">Delete</button></td></tr>`).join("")}</table></div>`;
+            }
+            if (tab === "contact") {
+               c.innerHTML = `<div class="panel"><h3>Contact Details</h3><form class="adminform" onsubmit="saveContact(event)"><div class="field full"><label>Registered Office</label><input id="aAddress" value="${esc(data.settings.address)}"></div><div class="field"><label>Phone numbers</label><input id="aPhones" value="${esc(data.settings.phones)}"></div><div class="field"><label>Email</label><input id="aEmail" value="${esc(data.settings.email)}"></div><div><button class="btn navy">Save Contact Details</button></div></form></div>`;
+            }
+            if (tab === "inquiries") {
+               c.innerHTML = `<div class="panel"><h3>Website Enquiries</h3><div class="tablewrap"><table><tr><th>Date</th><th>Name</th><th>Contact</th><th>Requirement</th></tr>${
+                  data.inquiries
+                     .slice()
+                     .reverse()
+                     .map(
+                        (x) =>
+                           `<tr><td>${esc(x.date)}</td><td><b>${esc(x.name)}</b><br>${esc(x.company)}</td><td>${esc(x.phone)}<br>${esc(x.email)}</td><td>${esc(x.message)}</td></tr>`,
+                     )
+                     .join("") ||
+                  '<tr><td colspan="4">No enquiries yet.</td></tr>'
+               }</table></div></div>`;
+            }
+            if (tab === "backup") {
+               c.innerHTML = `<div class="panel"><h3>Backup & Restore</h3><p>Export all editable website data as JSON or restore it later. Useful before moving the site to another browser/device.</p><button class="btn navy" onclick="exportData()">Export JSON</button> <label class="btn outline">Import JSON<input type="file" accept="application/json" style="display:none" onchange="importData(this)"></label> <button class="btn outline" onclick="resetDemo()">Reset Demo Data</button></div>`;
+            }
+         }
+         function listEditor(title, key, ph) {
+            return `<div class="panel"><div class="panelhead"><h3>${title}</h3><button class="btn red" onclick="simpleAdd('${key}','${ph}')">+ Add</button></div><table><tr><th>Name</th><th>Action</th></tr>${data[key].map((v, i) => `<tr><td>${esc(v)}</td><td><button class="mini" onclick="simpleEdit('${key}',${i})">Edit</button> <button class="mini danger" onclick="del('${key}',${i},'${key}')">Delete</button></td></tr>`).join("")}</table></div>`;
+         }
+         function simpleAdd(key, ph) {
+            let v = prompt(ph);
+            if (v) {
+               data[key].push(v);
+               save();
+               renderAdmin(key);
+            }
+         }
+         function simpleEdit(key, i) {
+            let v = prompt("Update value", data[key][i]);
+            if (v) {
+               data[key][i] = v;
+               save();
+               renderAdmin(key);
+            }
+         }
+         function del(key, i, tab) {
+            if (confirm("Delete this record?")) {
+               data[key].splice(i, 1);
+               save();
+               renderAdmin(tab);
+            }
+         }
+         function projectForm(i) {
+            let p =
+               i === undefined
+                  ? {
+                       title: "",
+                       category: "",
+                       location: "",
+                       value: "",
+                       area: "",
+                       image: "assets/slide11_1.png",
+                       desc: "",
+                    }
+                  : data.projects[i];
+            adminContent.innerHTML = `<div class="panel"><h3>${i === undefined ? "Add" : "Edit"} Project</h3><form class="adminform" onsubmit="saveProject(event,${i === undefined ? -1 : i})"><div class="field full"><label>Project title</label><input id="pTitle" value="${esc(p.title)}" required></div><div class="field"><label>Category</label><input id="pCategory" value="${esc(p.category)}"></div><div class="field"><label>Location</label><input id="pLocation" value="${esc(p.location)}"></div><div class="field"><label>Value</label><input id="pValue" value="${esc(p.value)}"></div><div class="field"><label>Area / scale</label><input id="pArea" value="${esc(p.area)}"></div><div class="field full"><label>Image path or URL</label><input id="pImage" value="${esc(p.image)}"></div><div class="field full"><label>Description</label><textarea id="pDesc">${esc(p.desc)}</textarea></div><div><button class="btn navy">Save Project</button></div></form></div>`;
+         }
+         function saveProject(e, i) {
+            e.preventDefault();
+            let p = {
+               id: Date.now(),
+               title: pTitle.value,
+               category: pCategory.value,
+               location: pLocation.value,
+               value: pValue.value,
+               area: pArea.value,
+               image: pImage.value,
+               desc: pDesc.value,
+            };
+            if (i < 0) data.projects.push(p);
+            else data.projects[i] = { ...data.projects[i], ...p };
+            save();
+            renderAdmin("projects");
+         }
+         function personForm(i) {
+            let p = i === undefined ? { name: "", role: "" } : data.manpower[i];
+            adminContent.innerHTML = `<div class="panel"><h3>${i === undefined ? "Add" : "Edit"} Team Member</h3><form class="adminform" onsubmit="savePerson(event,${i === undefined ? -1 : i})"><div class="field"><label>Name</label><input id="mName" value="${esc(p.name)}" required></div><div class="field"><label>Role</label><input id="mRole" value="${esc(p.role)}" required></div><div><button class="btn navy">Save</button></div></form></div>`;
+         }
+         function savePerson(e, i) {
+            e.preventDefault();
+            let p = { name: mName.value, role: mRole.value };
+            if (i < 0) data.manpower.push(p);
+            else data.manpower[i] = p;
+            save();
+            renderAdmin("manpower");
+         }
+         function serviceForm(i) {
+            let s = i === undefined ? { name: "", desc: "" } : data.services[i];
+            adminContent.innerHTML = `<div class="panel"><h3>${i === undefined ? "Add" : "Edit"} Service</h3><form class="adminform" onsubmit="saveService(event,${i === undefined ? -1 : i})"><div class="field full"><label>Service</label><input id="sName" value="${esc(s.name)}" required></div><div class="field full"><label>Description</label><textarea id="sDesc">${esc(s.desc)}</textarea></div><div><button class="btn navy">Save</button></div></form></div>`;
+         }
+         function saveService(e, i) {
+            e.preventDefault();
+            let s = { name: sName.value, desc: sDesc.value };
+            if (i < 0) data.services.push(s);
+            else data.services[i] = s;
+            save();
+            renderAdmin("services");
+         }
+         function saveContact(e) {
+            e.preventDefault();
+            data.settings = {
+               address: aAddress.value,
+               phones: aPhones.value,
+               email: aEmail.value,
+            };
+            save();
+            renderAdmin("contact");
+         }
+         function submitInquiry(e) {
+            e.preventDefault();
+            data.inquiries.push({
+               date: new Date().toLocaleString(),
+               name: inqName.value,
+               company: inqCompany.value,
+               phone: inqPhone.value,
+               email: inqEmail.value,
+               message: inqMessage.value,
+            });
+            localStorage.setItem("ibsData", JSON.stringify(data));
+            e.target.reset();
+            toast("Thank you. Your enquiry has been recorded.");
+         }
+         function exportData() {
+            let b = new Blob([JSON.stringify(data, null, 2)], {
+                  type: "application/json",
+               }),
+               a = document.createElement("a");
+            a.href = URL.createObjectURL(b);
+            a.download = "ibs-website-backup.json";
+            a.click();
+         }
+         function importData(inp) {
+            let f = inp.files[0];
+            if (!f) return;
+            let r = new FileReader();
+            r.onload = () => {
+               try {
+                  data = JSON.parse(r.result);
+                  save();
+                  renderAdmin("dashboard");
+               } catch (e) {
+                  alert("Invalid JSON backup");
+               }
+            };
+            r.readAsText(f);
+         }
+         function resetDemo() {
+            if (confirm("Reset all content to original demo data?")) {
+               data = JSON.parse(JSON.stringify(defaults));
+               save();
+               renderAdmin("dashboard");
+            }
+         }
+         function toast(msg) {
+            let t = document.getElementById("toast");
+            t.textContent = msg;
+            t.classList.add("show");
+            setTimeout(() => t.classList.remove("show"), 2200);
+         }
+         renderSite();
+         if (sessionStorage.getItem("ibsAdmin") === "1") {
+            site.classList.add("hidden");
+            admin.classList.add("open");
+            renderAdmin("dashboard");
+         }
 
-// Progressive reveal animations with reduced-motion support
-(()=>{const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;const targets=[...document.querySelectorAll('section .sectionhead,section .service,section .project,section .aboutgrid,section .contactgrid,section .clientgrid')];targets.forEach(x=>x.classList.add('reveal'));if(reduce){targets.forEach(x=>x.classList.add('visible'));return;}const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12});targets.forEach(x=>io.observe(x));})();
-</script></body></html>
+         // Progressive reveal animations with reduced-motion support
+         (() => {
+            const reduce = matchMedia(
+               "(prefers-reduced-motion: reduce)",
+            ).matches;
+            const targets = [
+               ...document.querySelectorAll(
+                  "section .sectionhead,section .service,section .project,section .aboutgrid,section .contactgrid,section .clientgrid",
+               ),
+            ];
+            targets.forEach((x) => x.classList.add("reveal"));
+            if (reduce) {
+               targets.forEach((x) => x.classList.add("visible"));
+               return;
+            }
+            const io = new IntersectionObserver(
+               (es) =>
+                  es.forEach((e) => {
+                     if (e.isIntersecting) {
+                        e.target.classList.add("visible");
+                        io.unobserve(e.target);
+                     }
+                  }),
+               { threshold: 0.12 },
+            );
+            targets.forEach((x) => io.observe(x));
+         })();
+      </script>
+   </body>
+</html>
